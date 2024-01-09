@@ -40,5 +40,3 @@ python3
 >>> session.new
 
 >>> session.commit()
-
-
