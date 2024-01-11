@@ -25,6 +25,8 @@ class Neo4JConnector:
 
 
 # connector = Neo4JConnector("bolt://100.27.18.17:7687", "neo4j", "teeth-cellar-dose")
-connector = Neo4JConnector("bolt://127.0.0.1:7689", "neo4j", "db_is_awesom3")
+connector = Neo4JConnector(
+    "bolt://44.199.254.99:7687", "neo4j", "additions-weeks-echoes"
+)
 connector.print_greeting("hello y'all")
 connector.close()

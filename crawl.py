@@ -79,7 +79,7 @@ def crawl(browser, r, es, neo, url):
 ### MAIN ###
 
 # Initialize Neo4j
-neo = Neo4JConnector("bolt://localhost:7689", "neo4j", "db_is_awesom3")
+neo = Neo4JConnector("bolt://44.199.254.99:7687", "neo4j", "additions-weeks-echoes")
 neo.flush_db()
 
 # Initialize Elasticsearch
